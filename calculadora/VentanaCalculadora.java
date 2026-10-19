@@ -148,7 +148,7 @@ public class VentanaCalculadora extends JFrame {
                 break;
         }
 
-        // quitar el .0 si es un entero perfecto)
+        // quitar el .0 (si es un entero perfecto)
         if (res % 1 == 0) {
             txtDisplay.setText(String.valueOf((long) res));
         } else {
